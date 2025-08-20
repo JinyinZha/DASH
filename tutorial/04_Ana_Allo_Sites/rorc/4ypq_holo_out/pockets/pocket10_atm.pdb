@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0102
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.7912
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5478
+HEADER 5  - Mean B-factor of pocket residues  : 0.2895
+HEADER 6  - Hydrophobicity Score              : 14.5714
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 305.8118
+HEADER 10 - Pocket volume (convex hull)       : 18.7295
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.5714
+ATOM    758   CB ALA A 355     -31.406   7.120 -18.336  0.00  0.00           C 0
+ATOM   1351    O PRO A 431     -35.550   1.814 -19.543  0.85  8.57           O 0
+ATOM   1341   CB ARG A 430     -31.806   2.451 -17.247  0.00  0.00           C 0
+ATOM   1354   CD PRO A 431     -35.356   2.539 -15.788  0.00  0.00           C 0
+ATOM    727  CG1 VAL A 351     -32.392   2.250 -20.971  0.00  0.00           C 0
+ATOM    725    O VAL A 351     -31.003   5.203 -21.158  0.00  0.00           O 0
+ATOM    728  CG2 VAL A 351     -33.479   1.924 -23.229  0.00  0.00           C 0
+ATOM    753   NZ LYS A 354     -37.493   8.566 -23.868  0.00  0.00           N 0
+ATOM   1961  OE2 GLU A 504     -36.980   6.748 -26.520  0.63  4.29           O 0
+ATOM    750   CG LYS A 354     -33.778   9.188 -23.036  0.00  0.00           C 0
+ATOM    751   CD LYS A 354     -35.020   8.433 -23.477  0.00  0.00           C 0
+ATOM    755   CA ALA A 355     -31.238   8.506 -18.946  0.00  0.00           C 0
+ATOM    752   CE LYS A 354     -36.258   9.328 -23.497  0.00  0.00           C 0
+ATOM    754    N ALA A 355     -31.110   8.389 -20.382  0.00  0.00           N 0
+ATOM    749   CB LYS A 354     -32.518   8.326 -23.187  0.00  0.00           C 0
+ATOM    723   CA VAL A 351     -31.761   3.747 -22.908  0.00  0.00           C 0
+ATOM    720  CG2 ILE A 350     -32.371   5.777 -27.047  0.00  0.00           C 0
+TER
+END

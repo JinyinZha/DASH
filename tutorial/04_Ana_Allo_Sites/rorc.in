@@ -1,0 +1,16 @@
+guide_type              ebp
+method_name             SplitContrastMAE
+high_dim_type           CA
+traj_info               rorc_apo.trajinfo
+cuda_id                 1
+round_time              10 
+max_round               0
+msr                     0
+n_seed_drag             20
+n_seed                  4
+rmsd_cutoff_pct         20
+rmsd_cutoff_least_pct   10
+rmsd_cutoff_max         2
+rmsd_cutoff_min         1
+n_train                 5
+n_proc                  8

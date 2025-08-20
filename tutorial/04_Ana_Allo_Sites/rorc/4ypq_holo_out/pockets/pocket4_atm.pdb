@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0606
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6404
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4149
+HEADER 5  - Mean B-factor of pocket residues  : 0.1481
+HEADER 6  - Hydrophobicity Score              : 61.5714
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 119.4740
+HEADER 10 - Pocket volume (convex hull)       : 2.1320
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6316
+ATOM    628    N SER A 339     -15.679   0.131 -22.457  0.64  1.09           N 0
+ATOM     99  CG2 VAL A 277     -13.511   2.931 -17.447  0.00  0.00           C 0
+ATOM    627  CD2 LEU A 338     -16.347   4.046 -19.966  0.00  0.00           C 0
+ATOM   1483  CD2 LEU A 446     -16.219   1.002 -15.588  0.00  0.00           C 0
+ATOM    624   CB LEU A 338     -17.762   2.673 -21.484  0.00  0.00           C 0
+ATOM   1442    O LEU A 442     -19.258  -2.745 -15.593  0.79  2.14           O 0
+ATOM   1440   CA LEU A 442     -20.273  -4.195 -17.208  0.00  0.00           C 0
+ATOM   1446  CD2 LEU A 442     -19.325  -4.486 -20.276  0.00  0.00           C 0
+ATOM   1472   CB ASN A 445     -16.514  -4.978 -14.765  0.00  0.00           C 0
+ATOM   1481   CG LEU A 446     -17.509   0.200 -15.370  0.00  0.00           C 0
+ATOM    631    O SER A 339     -17.615  -1.769 -21.645  0.49  5.36           O 0
+ATOM   1482  CD1 LEU A 446     -18.640   0.818 -16.099  0.00  0.00           C 0
+ATOM     69  CD1 LEU A 273     -13.084  -1.174 -17.648  0.00  0.00           C 0
+ATOM    633   OG SER A 339     -14.693  -3.430 -22.230  0.58  4.29           O 0
+ATOM    632   CB SER A 339     -14.583  -2.029 -22.018  0.00  0.00           C 0
+ATOM   1474  ND2 ASN A 445     -16.421  -6.899 -16.249  0.55  6.56           N 0
+ATOM     70  CD2 LEU A 273     -13.679  -2.289 -15.487  0.00  0.00           C 0
+TER
+END

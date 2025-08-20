@@ -1,0 +1,5 @@
+name     adk_open
+pdb      adk/adk_open_amber.pdb
+prmtop   adk/adk_open.prmtop
+inpcrd   adk/adk_open.inpcrd
+sel_str  not resname WAT

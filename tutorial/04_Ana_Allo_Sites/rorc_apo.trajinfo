@@ -1,0 +1,5 @@
+name     rorc_apo
+pdb      rorc/rorc_apo_amber.pdb
+prmtop   rorc/rorc_apo.prmtop
+inpcrd   rorc/rorc_apo.inpcrd
+sel_str  not resname WAT

@@ -1,0 +1,5 @@
+name     kras4b_idr
+pdb      kras4b/kras4b_idr_amber.pdb
+prmtop   kras4b/kras4b_idr.prmtop
+inpcrd   kras4b/kras4b_idr.inpcrd
+sel_str  not resname WAT

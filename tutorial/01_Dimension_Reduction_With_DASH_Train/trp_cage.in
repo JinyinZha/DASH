@@ -1,0 +1,8 @@
+name     trp_cage_pro_DES
+dir      trp_cage_pro_DES/
+pdb      trp_cage_pro_DES/trp_cage_pro.pdb
+dcd      trp_cage_pro_DES/trp_cage_pro_10000frames.dcd
+sel_str  all
+step     1
+n_train  5
+n_proc   5

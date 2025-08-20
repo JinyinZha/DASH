@@ -1,0 +1,10 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+source leaprc.water.tip3p
+c = loadPDB 4ake_open.pdb
+solvateBox c TIP3PBOX 12
+addions c Na+ 0
+addions c Cl- 0
+saveamberparm c adk_open.prmtop adk_open.inpcrd
+savepdb c adk_open_amber.pdb
+quit

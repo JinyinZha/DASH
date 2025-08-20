@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.1142
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8692
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6792
+HEADER 5  - Mean B-factor of pocket residues  : 0.2956
+HEADER 6  - Hydrophobicity Score              : -9.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 242.3451
+HEADER 10 - Pocket volume (convex hull)       : 7.6534
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.7273
+ATOM    549    N TYR A 330     -19.894  15.219 -26.114  0.00  0.00           N 0
+ATOM    556  CD2 TYR A 330     -17.583  17.879 -26.117  0.00  0.00           C 0
+ATOM    542    C GLN A 329     -20.581  14.506 -26.995  0.00  0.00           C 0
+ATOM    544   CB GLN A 329     -21.756  15.979 -28.666  0.00  0.00           C 0
+ATOM    554   CG TYR A 330     -17.116  16.651 -25.670  0.00  0.00           C 0
+ATOM    543    O GLN A 329     -20.167  13.441 -27.434  0.59  6.43           O 0
+ATOM    559   CZ TYR A 330     -15.582  18.234 -27.359  0.00  0.00           C 0
+ATOM    558  CE2 TYR A 330     -16.822  18.671 -26.951  0.00  0.00           C 0
+ATOM    548  OE1 GLN A 329     -21.851  17.704 -30.886  0.42  7.50           O 0
+ATOM    523   CG GLU A 326     -19.583  20.835 -27.999  0.00  0.00           C 0
+ATOM    526  OE2 GLU A 326     -18.227  22.074 -29.489  0.48  9.64           O 0
+ATOM    560   OH TYR A 330     -14.822  19.016 -28.195  0.44  7.50           O 0
+ATOM    555  CD1 TYR A 330     -15.866  16.222 -26.103  0.00  0.00           C 0
+ATOM    557  CE1 TYR A 330     -15.095  17.009 -26.942  0.00  0.00           C 0
+ATOM    579   CB GLU A 333     -17.283  11.049 -27.645  0.00  0.00           C 0
+ATOM    580   CG GLU A 333     -15.934  10.579 -28.154  0.00  0.00           C 0
+ATOM    147    O GLU A 283     -11.434  13.292 -25.730  0.00  0.00           O 0
+ATOM    619  NH2 ARG A 337     -12.071   9.822 -28.656  0.43  7.66           N 0
+TER
+END
