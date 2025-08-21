@@ -1,0 +1,8 @@
+name HRAS_apo
+dir HRAS/HRAS
+pdb HRAS/HRAS_apo_amber.pdb
+prmtop HRAS/HRAS_apo.prmtop
+inpcrd HRAS/HRAS_apo.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

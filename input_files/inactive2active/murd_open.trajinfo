@@ -1,0 +1,8 @@
+name murd_open
+dir murd_open/murd_open
+pdb murd_open/murd_open_amber.pdb
+prmtop murd_open/murd_open.prmtop
+inpcrd murd_open/murd_open.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

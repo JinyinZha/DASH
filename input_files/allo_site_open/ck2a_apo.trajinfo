@@ -1,0 +1,8 @@
+name ck2a_apo
+dir ck2a/ck2a
+pdb ck2a/ck2a_apo_amber.pdb
+prmtop ck2a/ck2a_apo.prmtop
+inpcrd ck2a/ck2a_apo.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

@@ -1,0 +1,7 @@
+name smallG_inactive
+dir smallG/smallG
+pdb smallG/smallG_inactive_amber.pdb
+prmtop smallG/smallG_inactive.prmtop
+inpcrd smallG/smallG_inactive.inpcrd
+sel_str not resname WAT
+step 1

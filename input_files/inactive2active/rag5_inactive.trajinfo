@@ -1,0 +1,8 @@
+name rag5_inactive
+dir rag5/rag5
+pdb rag5/rag5_inactive_amber.pdb
+prmtop rag5/rag5_inactive.prmtop
+inpcrd rag5/rag5_inactive.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

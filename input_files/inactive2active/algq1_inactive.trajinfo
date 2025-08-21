@@ -1,0 +1,8 @@
+name algq1_inactive
+dir algq1/algq1
+pdb algq1/algq1_inactive_amber.pdb
+prmtop algq1/algq1_inactive.prmtop
+inpcrd algq1/algq1_inactive.inpcrd
+pro_sel_str protein or resname CA
+sel_str not resname WAT
+step 1

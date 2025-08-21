@@ -1,0 +1,9 @@
+name sirt6_sub_ndp
+dir SIRT6/SIRT6
+pdb SIRT6/sirt6_ndp_sub_zaff_amber.pdb
+prmtop SIRT6/sirt6_ndp_sub_zaff.prmtop
+inpcrd SIRT6/sirt6_ndp_sub_zaff.inpcrd
+pro_sel_str protein and resnum 1 to 286
+sel_str not resname WAT
+cv_sel_str resnum 15 to 257
+step 1

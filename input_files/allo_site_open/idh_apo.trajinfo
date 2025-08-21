@@ -1,0 +1,8 @@
+name idh_apo
+dir idh/idh
+pdb idh/idh_apo_amber.pdb
+prmtop idh/idh_apo.prmtop
+inpcrd idh/idh_apo.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

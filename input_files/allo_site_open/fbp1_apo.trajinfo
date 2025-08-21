@@ -1,0 +1,8 @@
+name fbp1_apo
+dir fbp1/fbp1
+pdb fbp1/fbp1_apo_amber.pdb
+prmtop fbp1/fbp1_apo.prmtop
+inpcrd fbp1/fbp1_apo.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

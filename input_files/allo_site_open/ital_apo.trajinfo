@@ -1,0 +1,8 @@
+name ital_apo
+dir ital/ital
+pdb ital/ital_apo_amber.pdb
+prmtop ital/ital_apo.prmtop
+inpcrd ital/ital_apo.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

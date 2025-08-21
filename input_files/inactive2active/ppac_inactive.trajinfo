@@ -1,0 +1,8 @@
+name ppac_inactive
+dir ppac/ppac
+pdb ppac/ppac_inactive_amber.pdb
+prmtop ppac/ppac_inactive.prmtop
+inpcrd ppac/ppac_inactive.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

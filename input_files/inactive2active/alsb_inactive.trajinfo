@@ -1,0 +1,8 @@
+name alsb_inactive
+dir alsb/alsb
+pdb alsb/alsb_inactive_amber.pdb
+prmtop alsb/alsb_inactive.prmtop
+inpcrd alsb/alsb_inactive.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

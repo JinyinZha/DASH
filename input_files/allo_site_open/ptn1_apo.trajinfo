@@ -1,0 +1,8 @@
+name ptn1_apo
+dir ptn1/ptn1
+pdb ptn1/ptn1_apo_amber.pdb
+prmtop ptn1/ptn1_apo.prmtop
+inpcrd ptn1/ptn1_apo.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

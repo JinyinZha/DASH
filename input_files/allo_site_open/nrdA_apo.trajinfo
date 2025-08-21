@@ -1,0 +1,8 @@
+name nrdA_apo
+dir nrdA/nrdA
+pdb nrdA/nrdA_apo_amber.pdb
+prmtop nrdA/nrdA_apo.prmtop
+inpcrd nrdA/nrdA_apo.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

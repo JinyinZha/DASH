@@ -1,0 +1,8 @@
+name adk_open
+dir adk/adk
+pdb adk/adk_open_amber.pdb
+prmtop adk/adk_open.prmtop
+inpcrd adk/adk_open.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

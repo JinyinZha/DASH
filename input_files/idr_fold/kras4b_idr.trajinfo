@@ -1,0 +1,9 @@
+name kras4b_idr
+dir kras4b/kras4b
+pdb kras4b/kras4b_idr_amber.pdb
+prmtop kras4b/kras4b_idr.prmtop
+inpcrd kras4b/kras4b_idr.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+ss_sel_str resnum 160 to 180
+step 1

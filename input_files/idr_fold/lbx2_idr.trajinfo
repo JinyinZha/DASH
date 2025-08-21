@@ -1,0 +1,8 @@
+name lbx2_idr
+dir lbx2/lbx2
+pdb lbx2/lbx2_idr_eq_amber.pdb
+prmtop lbx2/lbx2_idr_eq.prmtop
+inpcrd lbx2/lbx2_idr_eq.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

@@ -1,0 +1,8 @@
+name argt_inactive
+dir argt/argt
+pdb argt/argt_inactive_amber.pdb
+prmtop argt/argt_inactive.prmtop
+inpcrd argt/argt_inactive.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

@@ -1,0 +1,8 @@
+name glnh_inactive
+dir glnh/glnh
+pdb glnh/glnh_inactive_amber.pdb
+prmtop glnh/glnh_inactive.prmtop
+inpcrd glnh/glnh_inactive.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

@@ -1,0 +1,8 @@
+name kif11_apo
+dir kif11/kif11
+pdb kif11/kif11_apo_amber.pdb
+prmtop kif11/kif11_apo.prmtop
+inpcrd kif11/kif11_apo.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

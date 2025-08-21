@@ -1,0 +1,8 @@
+name bla_apo
+dir bla/bla
+pdb bla/bla_apo_amber.pdb
+prmtop bla/bla_apo.prmtop
+inpcrd bla/bla_apo.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1

@@ -1,0 +1,7 @@
+name aldr_inactive
+dir aldr/aldr
+pdb aldr/aldr_inactive_amber.pdb
+prmtop aldr/aldr_inactive.prmtop
+inpcrd aldr/aldr_inactive.inpcrd
+sel_str not resname WAT
+step 1
