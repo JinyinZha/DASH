@@ -33,6 +33,7 @@ cd input_files/inactive2active
 ```
 If you want to perform dimension reductions of the cases in the article, you should download the data first.
 ```
+mkdir data
 cd data
 wget https://zenodo.org/record/16917262/files/train_data.zip
 unzip train_data.zip
@@ -42,4 +43,9 @@ Then you can run the dimension reductions.
 cd train_data/trp_cage
 ../../../bin/DASH_Train SplitContrastMAE train.in CA
 ```
-More information of the useages could be found in ```tutorial/```
+More information of the useages could be found in ```tutorial```
+##
+Reference
+
+UMAP is fetched from https://github.com/fcarli/parametric_umap
+
