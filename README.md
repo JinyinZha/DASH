@@ -2,7 +2,7 @@ DASH is a molecular dynamics software to sample functional-state conformations o
 ##
 Environmental Setup
 ```
-conda create -n dash python==3.9 openmm==8.0.0 openmm-torch==1.0 pytyorch==1.13.1 -c conda-forge
+conda create -n dash python==3.9 openmm==8.0.0 openmm-torch==1.0 pytorch==1.13.1 -c conda-forge
 pip install prody matplotlib scikit-learn numba tqdm torch-geometric torch_scatter
 pip install wheel
 pip install pyemma
