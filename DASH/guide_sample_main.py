@@ -1,6 +1,5 @@
 #!/usr/bin/env python3 
 
-from traj_info import traj_infos
 import os,sys
 import argparse
 import time

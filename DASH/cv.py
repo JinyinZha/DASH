@@ -20,7 +20,6 @@ from networks import Contrast,Contrast_AE,Split_Contrast_MAE,Split_Contrast,PCA,
 from data_loader import Data_Loader
 from utils import get_d_matrix,get_most_fluc_regions,cluster_fluc_regions,get_repre_conf,cv_from_knowledge
 from plot import Plot
-from traj_info import traj_infos
 from score_net import Net_Scorer
 import config
 
@@ -487,11 +486,11 @@ def train_single(method_name,traj_info,high_dim_type,workdir,encoder_type=None,b
     os.system("mkdir %s"%(workdir))
     net = CV(workdir)
     traj_info["sel_str"] = "not resname WAT"
-    if "n_proc" == traj_info.key():
+    if "n_proc" == traj_info.keys():
         n_proc = int(traj_info["n_proc"])
     else:
         n_proc = 5
-    if "n_train" == traj_info.key():
+    if "n_train" == traj_info.keys():
         n_train = int(traj_info["n_train"])
     else:
         n_train = 5
