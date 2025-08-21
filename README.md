@@ -34,7 +34,7 @@ cd input_files/inactive2active
 If you want to perform dimension reductions of the cases in the article, you should download the data first.
 ```
 cd data
-wget https://zenodo.org/record/16916399/files/train_data.zip
+wget https://zenodo.org/record/16917010/files/train_data.zip
 unzip train_data.zip
 ```
 Then you can run the dimension reductions.
