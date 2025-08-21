@@ -28,7 +28,7 @@ Useage
 Input files for simulations in this article are all in the folder ```input_files/```. Let's take an example.
 ```
 cd input_files/inactive2active
-../../bin/DASH -i smallG_inactive.in > smallG.out &
+../../bin/DASH -i aldr_inactive.in > aldr.out &
 #This script would take 2-3 days
 ```
 If you want to perform dimension reductions of the cases in the article, you should download the data first.
