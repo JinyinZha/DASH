@@ -16,7 +16,7 @@ import prody
 import matplotlib.pyplot as plt
 from openmm.app.metadynamics import *
 
-from networks import Contrast,Contrast_AE,Split_Contrast_MAE,Split_Contrast,PCA,AE,IsoMap,EncoderMap,TSNE,UMAP
+from networks import Contrast,Contrast_AE,Split_Contrast_MAE,Split_Contrast,PCA,AE,IsoMap,EncoderMap,TSNE,UMAP,TICA
 from data_loader import Data_Loader
 from utils import get_d_matrix,get_most_fluc_regions,cluster_fluc_regions,get_repre_conf,cv_from_knowledge
 from plot import Plot
@@ -157,8 +157,27 @@ class CV():
                 else:
                     info["res_id_sels"] = cluster_fluc_regions(pdb.getCoords(),set(resids4sub),align_resids,align_coords,self.outdir,"local_linear",skip_ter=True)
     
-            if info["method_name"] in ["PCA"]:
-                net = PCA(xs).to(device)
+            if info["method_name"] in ["PCA","TICA"]:
+                if info["method_name"] == "PCA":
+                    net = PCA(xs).to(device)
+                elif info["method_name"] == "TICA":
+                    if "lag_time" in info.keys():
+                        lag = info["lag_time"]
+                    else:
+                        lag = 1
+                    if "split_file" in info.keys():
+                        x_dict = dict()
+                        for i,x in enumerate(np.load(info["split_file"])):
+                            k = "_".join(x.split("-")[0:2])
+                            if k[0] == "0":
+                                k = "0"
+                            if k not in x_dict.keys():
+                                x_dict[k] = []
+                            x_dict[k].append(xs[i])
+                        xs_li = [np.vstack(x_dict[k]) for k in x_dict.keys()]
+                        net = TICA(xs_li,lag,device=device).to(device)
+                    else:
+                        net = TICA(xs,lag,device=device).to(device)
                 net.train()
                 loss = None
             else:

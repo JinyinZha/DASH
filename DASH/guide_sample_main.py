@@ -164,6 +164,7 @@ def get_further_force(net,r0s,args,traj_info):
                 ff.append({"name":"helix_force",
                            "helix_id":helix_count,
                           "fc_pull":1000,
+                          "d_r0":3,
                           "res_id_sel":res_id_sel})
                 helix_count += 1
     return ff

@@ -1,5 +1,5 @@
-adfr_prepare = "/home/jyzha/software/adfr/bin/prepare_receptor"
-adfr_autosite = "/home/jyzha/software/adfr/bin/autosite"
+adfr_prepare = "/home/jyzha/project/enhanced_sampling/DASH/adfr/adfr/bin/prepare_receptor"
+adfr_autosite = "/home/jyzha/project/enhanced_sampling/DASH/adfr/adfr/bin/autosite"
 
 casc_sel = '(resname ALA and (name CA)) or (resname GLY and (name CA)) or (resname ARG and (name CA or name CG or name NE)) or (resname ASN and (name CA or name CG))\
  or (resname ASP and (name CA or name CG)) or (resname CYS and (name CA or name SG)) or (resname GLN and (name CA or name CG or name OE1)) or (resname GLU and (name CA or name CG or name OE1)) \

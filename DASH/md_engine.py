@@ -235,9 +235,11 @@ class MD_Engine():
 
         for fi,f_dict in enumerate(further_force):
             if f_dict["name"] == "helix_force":
+                if "d_r0" not in f_dict.keys():
+                    f_dict["d_r0"] = 3
                 print(simulation.context.getSystem().getForces()[f_dict["f_id"]].getCollectiveVariableValues(simulation.context)[0])
                 simulation.context.setParameter(f_dict["r0_name"],
-                                                min(simulation.context.getSystem().getForces()[f_dict["f_id"]].getCollectiveVariableValues(simulation.context)[0]+3,len(f_dict["res_id_sel"])-5))
+                                                min(simulation.context.getSystem().getForces()[f_dict["f_id"]].getCollectiveVariableValues(simulation.context)[0]+f_dict["d_r0"],len(f_dict["res_id_sel"])-5))
         simulation.reporters.append(StateDataReporter(stdout, output_state_freq, step=True,potentialEnergy=True, temperature=True))
         return simulation,further_force
         
