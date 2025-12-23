@@ -1,0 +1,8 @@
+name sirt6cter_idr
+dir sirt6cter/sirt6cter
+pdb sirt6cter/sirt6cter_amber.pdb
+prmtop sirt6cter/sirt6cter.prmtop
+inpcrd sirt6cter/sirt6cter.inpcrd
+pro_sel_str protein
+sel_str not resname WAT
+step 1
