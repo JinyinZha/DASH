@@ -10,41 +10,28 @@ casc_sel = '(resname ALA and (name CA)) or (resname GLY and (name CA)) or (resna
 aa_chi_dict = { 
     'ALA': [],
     'GLY': [],
-    # 精氨酸（通常保持质子化）
     'ARG': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'CD'],
             ['CB', 'CG', 'CD', 'NE'], ['CG', 'CD', 'NE', 'CZ']],
-    
-    # 天冬氨酸及其质子化变体
     'ASN': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'OD1']],
     'ASP': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'OD1']],
-    'ASH': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'OD1']],  # 质子化ASP
-    
-    # 半胱氨酸及其去质子化变体
+    'ASH': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'OD1']],  
     'CYS': [['N', 'CA', 'CB', 'SG']],
-    'CYM': [['N', 'CA', 'CB', 'SG']],  # 去质子化CYS
-    
-    # 谷氨酰胺及其质子化变体
+    'CYM': [['N', 'CA', 'CB', 'SG']],  
     'GLN': [['N', 'CA', 'CB', 'CG'],
             ['CA', 'CB', 'CG', 'CD'],
             ['CB', 'CG', 'CD', 'OE1']],
     'GLU': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'CD'],
             ['CB', 'CG', 'CD', 'OE1']],
     'GLH': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'CD'],
-            ['CB', 'CG', 'CD', 'OE1']],  # 质子化GLU
-    
-    # 组氨酸不同质子化状态（已由您补充）
+            ['CB', 'CG', 'CD', 'OE1']],  
     'HIS': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'ND1']],
     'HIE': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'ND1']],
     'HID': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'ND1']],
     'HIP': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'ND1']],
-    
-    # 赖氨酸及其去质子化变体
     'LYS': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'CD'],
             ['CB', 'CG', 'CD', 'CE'], ['CG', 'CD', 'CE', 'NZ']],
     'LYN': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'CD'],
-            ['CB', 'CG', 'CD', 'CE'], ['CG', 'CD', 'CE', 'NZ']],  # 去质子化LYS
-    
-    # 其他标准氨基酸
+            ['CB', 'CG', 'CD', 'CE'], ['CG', 'CD', 'CE', 'NZ']],  
     'ILE': [['N', 'CA', 'CB', 'CG1'], ['CA', 'CB', 'CG1', 'CD']],
     'LEU': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'CD1']],
     'MET': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'SD'],
@@ -54,10 +41,7 @@ aa_chi_dict = {
     'SER': [['N', 'CA', 'CB', 'OG']],
     'THR': [['N', 'CA', 'CB', 'OG1']],
     'TRP': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'CD1']],
-    
-    # 酪氨酸及其去质子化变体（罕见）
     'TYR': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'CD1']],
-    'TYM': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'CD1']],  # 去质子化TYR
-    
+    'TYM': [['N', 'CA', 'CB', 'CG'], ['CA', 'CB', 'CG', 'CD1']],  
     'VAL': [['N', 'CA', 'CB', 'CG1']]
 }
